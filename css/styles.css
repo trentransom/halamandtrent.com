@@ -3,9 +3,12 @@ body {
 }
 #main_header {
   color: #49494a;
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   font-family: "WindSong",cursive;
+  margin: 30px auto auto 30px;
+  width: 30%;
+  position: absolute;
 }
 
 li.navigation_tabs {
@@ -14,27 +17,15 @@ li.navigation_tabs {
   font-family: "Playfair Display", serif;
 }
 
-ul.navigation_tabs {
-  text-align: center;
-}
 
 
-
-
-.nav-bar {
-  position: absolute;
-  width: 100%;
-  max-width: 1250px;
-  left: 50%;
-  transform: translateX(-50%);
-  overflow: hidden;
-}
 .links {
   display: inline-block;
   position: relative;
   float: right;
   text-transform: uppercase;
-  padding: 45px 20px;
+  padding: 45px 55px;
+  display: inline;
 }
 .navigation_tabs {
   display: inline-block;
@@ -70,4 +61,10 @@ ul.navigation_tabs {
 .navigation_tabs:hover::before {
   opacity: 1;
   bottom: 8px;
+}
+
+.navigation_tabs a:visited, a:hover, a{
+  text-decoration: none;
+  color : black;
+  font-size: 14px
 }
